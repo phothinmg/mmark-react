@@ -5,6 +5,12 @@
   "scripts": {
     "build": "./build.js"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "keywords": [],
   "author": "Pho Thin Maung",
   "license": "Apache-2.0",
